@@ -69,7 +69,7 @@ pip install streamlit networkx matplotlib pillow
 Run the Streamlit app:
 
 ```bash
-streamlit run app.py
+streamlit run djikstra_app.py
 ```
 
 The application will open automatically in your browser.
@@ -113,9 +113,13 @@ The application displays:
 
 ```text
 .
-├── app.py
-├── requirements.txt
-└── README.md
+├── .devcontainer/
+│   └── ...
+├── README.md
+├── app_info.txt
+├── dijkstra.py
+├── dijkstra_app.py
+└── requirements.txt
 ```
 
 ---
